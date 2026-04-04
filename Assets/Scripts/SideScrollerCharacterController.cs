@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class CharacterControl : MonoBehaviour
+public class SideScrollerCharacterControl : MonoBehaviour
 {
     [Tooltip("The horizontal walk movement speed."), Range(0f, 1000f)]
     public float walSpeed = 100f;
