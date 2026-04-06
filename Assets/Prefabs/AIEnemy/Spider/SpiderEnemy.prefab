@@ -18,10 +18,11 @@ GameObject:
   - component: {fileID: 1044945023926806202}
   - component: {fileID: 3747069882444730309}
   - component: {fileID: 485424029691324686}
+  - component: {fileID: 7301400918113261602}
   - component: {fileID: 8153595844408007998}
   m_Layer: 0
   m_Name: SpiderEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -311,7 +312,7 @@ MonoBehaviour:
   logTaskChanges: 0
   group: 0
   resetValuesOnRestart: 0
-  externalBehavior: {fileID: 0}
+  externalBehavior: {fileID: 11400000, guid: 0af5aa6107a9b2345ac0d87f2d0f0faf, type: 2}
   mBehaviorSource:
     behaviorName: Behavior
     behaviorDescription: 
@@ -329,7 +330,7 @@ MonoBehaviour:
         target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
         or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
         Within Light Range","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
-        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
         Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
         Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
         target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
@@ -370,6 +371,43 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &7301400918113261602
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989281883038569716}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.23, y: 0.1}
+  m_Direction: 1
 --- !u!114 &8153595844408007998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,7 +424,7 @@ MonoBehaviour:
   patrolSpeed: 1
   spiderWebPrefab: {fileID: 1859842944175500235, guid: da5f0ddf72c6b684d8faa94fe3ae9823, type: 3}
   webShotPoint: {fileID: 7365150159393199961}
-  webSpeed: 8
+  webSpeed: 12
   webMaxDistance: 6
   patrolGenerationRadius: 4
   patrolMinTargetSeparation: 1

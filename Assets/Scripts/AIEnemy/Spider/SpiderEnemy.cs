@@ -118,6 +118,11 @@ namespace AIEnemy.Spider
             if (spiderWebPrefab == null || webShotPoint == null)
                 return;
 
+            if (worldTarget.x > transform.position.x)
+                transform.localRotation = _rotationMovingRight;
+            else if (worldTarget.x < transform.position.x)
+                transform.localRotation = _rotationMovingLeft;
+
             if (_animator != null)
                 _animator.SetBool(IsShotingWebHash, true);
             _isShotingWeb = true;

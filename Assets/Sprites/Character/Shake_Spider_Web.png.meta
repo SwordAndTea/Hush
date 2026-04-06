@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 2a797f4fce024bb499183fbc859f0546
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1563113483121439990
+    second: Shake_Spider_Web_0
+  - first:
+      213: -5218160392366962765
+    second: Shake_Spider_Web_1
+  - first:
+      213: 5014062143906003195
+    second: Shake_Spider_Web_2
+  - first:
+      213: -5230664304757267609
+    second: Shake_Spider_Web_3
+  - first:
+      213: 2064101546348811473
+    second: Shake_Spider_Web_4
+  - first:
+      213: -7071132135361963959
+    second: Shake_Spider_Web_5
+  - first:
+      213: 6203653205878508520
+    second: Shake_Spider_Web_6
+  - first:
+      213: 7284110020358552371
+    second: Shake_Spider_Web_7
+  - first:
+      213: -4443764337929089516
+    second: Shake_Spider_Web_8
+  - first:
+      213: 3161591512101044694
+    second: Shake_Spider_Web_9
+  - first:
+      213: -4528524200331217770
+    second: Shake_Spider_Web_10
+  - first:
+      213: -1111218725472410107
+    second: Shake_Spider_Web_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shake_Spider_Web_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4b3116e6b41b510800000000000000
+      internalID: 1563113483121439990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b744f725ce5597b0800000000000000
+      internalID: -5218160392366962765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8304944f6859540800000000000000
+      internalID: 5014062143906003195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763a0af2782f867b0800000000000000
+      internalID: -5230664304757267609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4947a9b6925ac10800000000000000
+      internalID: 2064101546348811473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94896ef89ca4edd90800000000000000
+      internalID: -7071132135361963959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb0a1ee8bdc71650800000000000000
+      internalID: 6203653205878508520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bb55c787b561560800000000000000
+      internalID: 7284110020358552371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e0034f0e39452c0800000000000000
+      internalID: -4443764337929089516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d14cabbaba30eb20800000000000000
+      internalID: 3161591512101044694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6947f72ab337721c0800000000000000
+      internalID: -4528524200331217770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shake_Spider_Web_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5066478e4782490f0800000000000000
+      internalID: -1111218725472410107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shake_Spider_Web_0: 1563113483121439990
+      Shake_Spider_Web_1: -5218160392366962765
+      Shake_Spider_Web_10: -4528524200331217770
+      Shake_Spider_Web_11: -1111218725472410107
+      Shake_Spider_Web_2: 5014062143906003195
+      Shake_Spider_Web_3: -5230664304757267609
+      Shake_Spider_Web_4: 2064101546348811473
+      Shake_Spider_Web_5: -7071132135361963959
+      Shake_Spider_Web_6: 6203653205878508520
+      Shake_Spider_Web_7: 7284110020358552371
+      Shake_Spider_Web_8: -4443764337929089516
+      Shake_Spider_Web_9: 3161591512101044694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
