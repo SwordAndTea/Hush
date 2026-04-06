@@ -16,8 +16,11 @@ public class TopDownCharacterControl : MonoBehaviour
     private InputAction _moveAction;
     private Vector2 _moveInputValue;
     private InputAction _sprintAction;
+    private AudioSource _runAudio;
 
     private bool _isRunning;
+
+    
 
     #region Hurt and Dead Variables
 
@@ -33,6 +36,7 @@ public class TopDownCharacterControl : MonoBehaviour
         _animator = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
         _sprintRenderer = GetComponent<SpriteRenderer>();
+        _runAudio = GetComponent<AudioSource>();
 
         _moveAction = InputSystem.actions.FindAction("Move");
         _sprintAction = InputSystem.actions.FindAction("Sprint");
@@ -51,7 +55,10 @@ public class TopDownCharacterControl : MonoBehaviour
         {
             _animator.SetBool("IsMoving", false);
             _animator.SetBool("IsRunning", false);
+            _isRunning = false;
         }
+
+        UpdateRunAudio();
 
         if (_moveInputValue.x > 0)
         {
@@ -76,6 +83,21 @@ public class TopDownCharacterControl : MonoBehaviour
             _animator.SetBool("IsRunning", false);
             _isRunning = false;
         }
+    }
+
+    private void UpdateRunAudio()
+    {
+        if (_runAudio == null)
+            return;
+
+        bool shouldPlay = _isRunning && _moveInputValue.sqrMagnitude > 0f;
+        if (shouldPlay)
+        {
+            if (!_runAudio.isPlaying)
+                _runAudio.Play();
+        }
+        else
+            _runAudio.Stop();
     }
 
     private void FixedUpdate()
