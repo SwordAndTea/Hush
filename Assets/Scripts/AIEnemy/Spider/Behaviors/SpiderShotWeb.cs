@@ -17,13 +17,17 @@ namespace AIEnemy.Spider.Behaviors
 
         public override void OnStart()
         {
-            if (_spider != null) {
+            if (_spider != null && !_spider.IsShotingWeb) {
                 _spider.ShootWeb(TargetPosition.Value);
             }
         }
 
         public override TaskStatus OnUpdate()
         {
+            if (_spider.IsShotingWeb)
+            {
+                return TaskStatus.Running;
+            }
             return TaskStatus.Success;
         }
     }

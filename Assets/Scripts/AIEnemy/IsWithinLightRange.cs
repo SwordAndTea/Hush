@@ -12,6 +12,9 @@ namespace AIEnemy
 		public SharedVector2 TargetPosition;
 		public bool RequireLineOfSight;
 
+		[BehaviorDesigner.Runtime.Tasks.Tooltip("Only colliders on these layers can block line of sight.")]
+		public LayerMask MaskLayer = Physics2D.DefaultRaycastLayers;
+
 		[BehaviorDesigner.Runtime.Tasks.Tooltip("Added to the light's point outer radius for this check. Negative tightens inside the visual falloff; positive expands beyond it.")]
 		public float outerRadiusOffset;
 
@@ -58,7 +61,7 @@ namespace AIEnemy
 			Vector2 dir = (to - from) / distance;
 			const float endSlack = 0.02f;
 
-			var hits = Physics2D.RaycastAll(from, dir, distance, Physics2D.DefaultRaycastLayers);
+			var hits = Physics2D.RaycastAll(from, dir, distance, MaskLayer);
 			if (hits.Length == 0)
 				return true;
 

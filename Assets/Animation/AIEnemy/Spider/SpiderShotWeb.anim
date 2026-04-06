@@ -22,11 +22,11 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 8073014458248637698, guid: ecc4b9b8f88eb064ca3412953160ad24, type: 3}
-    - time: 1.6166667
+    - time: 0.16666667
       value: {fileID: -4156147782660123964, guid: ecc4b9b8f88eb064ca3412953160ad24, type: 3}
-    - time: 3.2333333
+    - time: 0.33333334
       value: {fileID: 14857211565290938, guid: ecc4b9b8f88eb064ca3412953160ad24, type: 3}
-    - time: 4.85
+    - time: 0.5
       value: {fileID: 7639415567596375037, guid: ecc4b9b8f88eb064ca3412953160ad24, type: 3}
     attribute: m_Sprite
     path: 
@@ -59,7 +59,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 5.016667
+    m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -79,7 +79,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 5.016667
+  - time: 0.51666665
     functionName: WebShotAnimationEnd
     data: 
     objectReferenceParameter: {fileID: 0}

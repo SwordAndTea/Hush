@@ -13,12 +13,11 @@ namespace AIEnemy.Spider
         private Quaternion _rotationMovingLeft;
         private Quaternion _rotationMovingRight;
         private Patrol _patrol;
-        private bool _patrolWasEnabledBeforeChase;
-        private bool _chaseActive;
+        private bool _isShotingWeb;
 
-        public bool ReachedDestination => _chaseActive && _pathfinder.reachedEndOfPath;
+        public bool ReachedDestination => _pathfinder.reachedEndOfPath;
         public bool CanPatrol => _patrol != null;
-        public bool IsShotingWeb => _animator != null && _animator.GetBool(IsShotingWebHash);
+        public bool IsShotingWeb => _isShotingWeb;
 
         [Header("Movement")]
         public float runSpeed = 3f;
@@ -28,8 +27,8 @@ namespace AIEnemy.Spider
         [Header("Web shot")]
         [SerializeField] GameObject spiderWebPrefab;
         [SerializeField] Transform webShotPoint;
-        [SerializeField] float webArcHeight = 1f;
-        [SerializeField] float webFlightDuration = 0.45f;
+        [SerializeField] float webSpeed = 8f;
+        [SerializeField] float webMaxDistance = 6f;
 
         [Space]
         [Header("Patrol · random generation (StartPatrol)")]
@@ -54,8 +53,7 @@ namespace AIEnemy.Spider
             _rotationMovingLeft = transform.localRotation;
             _rotationMovingRight = _rotationMovingLeft * Quaternion.Euler(0f, 180f, 0f);
 
-            _chaseActive = false;
-            _patrolWasEnabledBeforeChase = false;
+            _isShotingWeb = false;
             if (_patrol != null)
                 _patrol.enabled = false;
             if (_pathfinder != null)
@@ -74,13 +72,6 @@ namespace AIEnemy.Spider
 
         public void StartPathfindToTarget()
         {
-            if (_patrol != null && !_chaseActive)
-            {
-                _patrolWasEnabledBeforeChase = _patrol.enabled;
-                _patrol.enabled = false;
-            }
-
-            _chaseActive = true;
             _pathfinder.maxSpeed = runSpeed;
             _pathfinder.isStopped = false;
             _animator.SetBool("IsRunning", true);
@@ -88,17 +79,8 @@ namespace AIEnemy.Spider
 
         public void StopPathfinding()
         {
-            _chaseActive = false;
             _animator.SetBool("IsRunning", false);
-
-            if (_patrol != null && _patrolWasEnabledBeforeChase)
-            {
-                _patrol.enabled = true;
-                _pathfinder.maxSpeed = patrolSpeed;
-                _pathfinder.isStopped = false;
-            }
-            else
-                _pathfinder.isStopped = true;
+            _pathfinder.isStopped = true;
         }
 
         public void StartPatrol()
@@ -106,7 +88,6 @@ namespace AIEnemy.Spider
             if (_patrol == null || _pathfinder == null)
                 return;
 
-            _chaseActive = false;
             if (_animator != null)
                 _animator.SetBool("IsRunning", false);
 
@@ -122,7 +103,6 @@ namespace AIEnemy.Spider
             ResetPatrolInternalState(_patrol);
 
             _patrol.enabled = true;
-            _patrolWasEnabledBeforeChase = true;
             _pathfinder.maxSpeed = patrolSpeed;
             _pathfinder.isStopped = false;
         }
@@ -131,10 +111,6 @@ namespace AIEnemy.Spider
         {
             if (_patrol != null)
                 _patrol.enabled = false;
-
-            _patrolWasEnabledBeforeChase = false;
-            if (!_chaseActive)
-                _pathfinder.isStopped = true;
         }
 
         public void ShootWeb(Vector2 worldTarget)
@@ -144,13 +120,14 @@ namespace AIEnemy.Spider
 
             if (_animator != null)
                 _animator.SetBool(IsShotingWebHash, true);
+            _isShotingWeb = true;
 
             Vector2 start = webShotPoint.position;
             float z = webShotPoint.position.z;
             GameObject instance = Instantiate(spiderWebPrefab, webShotPoint.position, webShotPoint.rotation);
             var web = instance.GetComponent<SpiderWeb>();
             if (web != null)
-                web.Launch(start, worldTarget, webArcHeight, webFlightDuration, z);
+                web.Launch(start, worldTarget, webSpeed, webMaxDistance, z);
             else
                 Destroy(instance);
         }
@@ -160,6 +137,7 @@ namespace AIEnemy.Spider
         /// </summary>
         public void WebShotAnimationEnd()
         {
+            _isShotingWeb = false;
             if (_animator != null)
                 _animator.SetBool(IsShotingWebHash, false);
         }
