@@ -119,10 +119,33 @@ public class TopDownCharacterControl : MonoBehaviour
     }
 
 
-    // the animation event of hurt animation
+    public void TakeDamage(int damage)
+    {
+        if (!_canHurt || health <= 0)
+            return;
+
+        health -= damage;
+        _canHurt = false;
+
+        _animator.SetInteger("Health", health);
+
+        if (health <= 0)
+        {
+            _rb.linearVelocity = Vector2.zero;
+            _animator.Play("Dead");
+            enabled = false;
+        }
+        else
+        {
+            _animator.SetBool("IsHurt", true);
+        }
+    }
+
     private void OnHurtAnimationDone()
     {
         _canHurt = true;
+        if (health > 0)
+            _animator.SetBool("IsHurt", false);
     }
 
     // the animation event of dead animation
