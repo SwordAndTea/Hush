@@ -12,6 +12,9 @@ namespace AIEnemy
 		public SharedVector2 TargetPosition;
 		public bool RequireLineOfSight;
 
+		[BehaviorDesigner.Runtime.Tasks.Tooltip("Added to the light's point outer radius for this check. Negative tightens inside the visual falloff; positive expands beyond it.")]
+		public float outerRadiusOffset;
+
 		public override TaskStatus OnUpdate()
 		{
 			if (Light == null || !Light.enabled || Light.lightType != Light2D.LightType.Point)
@@ -24,7 +27,7 @@ namespace AIEnemy
 			var lightPosition = new Vector2(Light.transform.position.x, Light.transform.position.y);
 
 			float dist = Vector2.Distance(agentPosition, lightPosition);
-			float outer = Mathf.Max(0f, Light.pointLightOuterRadius);
+			float outer = Mathf.Max(0f, Light.pointLightOuterRadius + outerRadiusOffset);
 			float inner = Mathf.Max(0f, Light.pointLightInnerRadius);
 
 			if (dist > outer || dist < inner)

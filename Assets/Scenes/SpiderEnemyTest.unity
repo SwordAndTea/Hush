@@ -394,93 +394,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!1 &166237544
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 166237546}
-  - component: {fileID: 166237545}
-  m_Layer: 0
-  m_Name: PathFindingManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &166237545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166237544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
-  version: 1
-  data:
-    dataString: UEsDBBQAAAgIAACYn+trs0dObgIAACgFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziVjEwqht9YhpIckTGgnF1+EtMYabMmjjwDJ8N+7kmXsUC7I7+2u3r5d+5MIaRpgVumVFvxJcSA/RsSfybdRTz7Cke6U3IgP6GLeBLelD6Ih5pVaoRBPfZpRNVgt2E+5q3xwgqCTolC6XvIdZMpYg3BBKwNIaWV9tkToc0SO+Dde+JQTniZzf/rA0yIZnfHIQFrQfWhyM12E3zRmjNOb2WyezObTdDlO5jG7TXaSVbRugPtO+hqTNOambZjEHmOEZ5iqKmGiQGJPTTAgo41x2B4GcEGx4aDKx5cgdqX1dYfJL0VhwEY3ND3dC42+tVXJL9WaWVOzb3W908r5e2bTIKmt+fQfPU4DXWhVP3bXpom/wpaC7V/piVFjB2YP4fuvup080GpPtxW8lSCf1UorJzmSVjuf6gxM7vvHS2dZCWzf463UK9A1g5FFt7vJ+h7OofljVol62061BTaVCnaHhQCNg/mNgsO6mFgCUa/ir4E/dDfcq0g8CG0sUrFL6eVtldM+lCyDZ74bZzOlJQQ4im5A0sqe1ljGXk/wihtce8U8UP8Gxcsj170YVykB7uOT5Ipaq8NlWKZUhycw5YuzlZDQi/bEM/qUKSnbBRt60qVtnC4oG6TtnOBfV4uwyYJ/B3abzCZ3W6B8nPB0u1gAL24nML1jnITdExL7pNW6FRrtwanJvrjEPes+LKOVpk1Ydq7pYSU+ajWwXMhCbZgGkC9thYtw0HgJvpR8yQUatAFrhQzzJp85qRTbA88vhfLQ6fJoNc37KjlpxLuyHslJFr4kOfHwZZfXGt4FHPzlXbEzOf8DUEsDBBQAAAgIAACYn+uDVA6vbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSspFlimlqsrGBmZFFUmpiiq5BimGSpWVqSpqxUaqJRXKKUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+trs0dObgIAACgFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+uDVA6vbQAAAHgAAAAJACQAAAAAAAAAAAAAALsCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAcwMAAAAA
-    upgradeData: 
-    file_cachedStartup: {fileID: 0}
-    data_cachedStartup: 
-    cacheStartup: 0
-  showNavGraphs: 1
-  showUnwalkableNodes: 1
-  debugMode: 0
-  debugFloor: 0
-  debugRoof: 1
-  manualDebugFloorRoof: 0
-  showSearchTree: 0
-  unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
-  maxNearestNodeDistance: 100
-  scanOnStartup: 1
-  fullGetNearestSearch: 0
-  prioritizeGraphs: 0
-  prioritizeGraphsLimit: 1
-  colorSettings:
-    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
-    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
-    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
-    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
-    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
-    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
-    _AreaColors:
-    - {r: 0, g: 0, b: 0, a: 0}
-  tagNames: []
-  heuristic: 2
-  heuristicScale: 1
-  threadCount: 1
-  maxFrameTime: 10
-  batchGraphUpdates: 0
-  graphUpdateBatchingInterval: 0.2
-  euclideanEmbedding:
-    mode: 0
-    seed: 0
-    pivotPointRoot: {fileID: 0}
-    spreadOutCount: 1
-  showGraphs: 1
---- !u!4 &166237546
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166237544}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &189899428
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,6 +532,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &371886111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371886112}
+  m_Layer: 0
+  m_Name: WebShotPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &371886112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371886111}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.165, y: -0.008, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1262953033}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &381708794 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 397243324569289259, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
@@ -934,6 +878,40 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1045605957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1045605958}
+  m_Layer: 0
+  m_Name: Spider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1045605958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045605957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.29609, y: -1.80241, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1262953033}
+  - {fileID: 1479977242}
+  - {fileID: 1324789340}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1262953027
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,8 +924,13 @@ GameObject:
   - component: {fileID: 1262953032}
   - component: {fileID: 1262953028}
   - component: {fileID: 1262953035}
-  - component: {fileID: 1262953037}
+  - component: {fileID: 1262953042}
+  - component: {fileID: 1262953041}
+  - component: {fileID: 1262953039}
+  - component: {fileID: 1262953040}
   - component: {fileID: 1262953036}
+  - component: {fileID: 1262953038}
+  - component: {fileID: 1262953037}
   m_Layer: 0
   m_Name: SpiderEnemy
   m_TagString: Untagged
@@ -967,7 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.Seeker
-  version: 1
+  version: 1073741824
   drawGizmos: 1
   detailedGizmos: 0
   startEndModifier:
@@ -980,7 +963,40 @@ MonoBehaviour:
       m_Bits: 4294967295
     useGraphRaycasting: 0
   traversableTags: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  tagCostMultipliers:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  tagEntryCosts: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
 --- !u!212 &1262953032
@@ -1030,14 +1046,14 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -8624246290351694174, guid: de44e501d8d599b44836980a7abc4555, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.27, y: 0.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1050,12 +1066,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262953027}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.37838, y: -0.01418, z: 0}
-  m_LocalScale: {x: 0.49, y: 0.49, z: 0.49}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.91770995, y: 1.36, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 0}
+  m_Children:
+  - {fileID: 371886112}
+  m_Father: {fileID: 1045605958}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1262953035
 MonoBehaviour:
@@ -1069,35 +1086,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.AIPath
-  version: 5
-  radius: 0.8
+  version: 1073741824
+  radius: 0.35
   height: 0.01
-  canMove: 1
+  simulateMovement: 1
   maxSpeed: 3
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  centerOffsetCompatibility: NaN
+  endReachedDistance: 0.2
+  whenCloseToDestination: 0
+  rvoDensityBehavior:
+    enabled: 0
+    densityThreshold: 0.5
+    returnAfterBeingPushedAway: 0
+    progressAverage: 0
+    lastJobDensityResult: 0
   repathRateCompatibility: NaN
   canSearchCompability: 0
   orientation: 1
   enableRotation: 0
   autoRepath:
     mode: 2
-    interval: 1
+    period: 1
     sensitivity: 10
-    maximumInterval: 1
+    maximumPeriod: 1
     visualizeSensitivity: 0
-  targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.6
   pickNextWaypointDist: 0.7
-  endReachedDistance: 0.2
   alwaysDrawGizmos: 1
   slowWhenNotFacingTarget: 1
-  whenCloseToDestination: 0
+  preventMovingBackwards: 0
   constrainInsideGraph: 0
 --- !u!114 &1262953036
 MonoBehaviour:
@@ -1106,7 +1128,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262953027}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
   m_Name: 
@@ -1127,13 +1149,17 @@ MonoBehaviour:
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,135.497818)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-120.737724,141.3086)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-90,130)"},"ID":3,"Name":"Is
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,135.497818)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None"},"DetachedTasks":[{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(-335075.156,230)"},"ID":2,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}},{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-334823.5,204.1667)"},"ID":3,"Name":"Is
         Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
-        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.3,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(104.55378,127.736404)"},"ID":4,"Name":"Is
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.3,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-334584.938,-36.01909)"},"ID":4,"Name":"Inverter","Instant":true,"Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-4.27484131,117.399353)"},"ID":5,"Name":"Is
         Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
-        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true}]},{"Type":"AIEnemy.Spider.SpiderMovement","NodeData":{"Offset":"(114.187492,142.472168)"},"ID":5,"Name":"Spider
-        Movement","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
-        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"SingleouterRadiusOffset":-1}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334810,-70)"},"ID":6,"Name":"Selector","Instant":true,"AbortTypeabortType":"None"},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(-334278.8,-232.304138)"},"ID":7,"Name":"Spider
+        Patrol","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334294.219,-123.15789)"},"ID":8,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(-138.211884,134.308456)"},"ID":9,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.3},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(-2.31831169,130.2252)"},"ID":10,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}],"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
         target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
       fieldSerializationData:
         typeName: []
@@ -1160,7 +1186,156 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7189e198abc540a45b831ee79ab18b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpiderEnemy
-  disableAIPathfinder: 1
+  runSpeed: 3
+  patrolSpeed: 1
+  spiderWebPrefab: {fileID: 1859842944175500235, guid: da5f0ddf72c6b684d8faa94fe3ae9823, type: 3}
+  webShotPoint: {fileID: 371886112}
+  webArcHeight: 1
+  webFlightDuration: 0.45
+  patrolGenerationRadius: 4
+  patrolMinTargetSeparation: 1
+  patrolColliderCheckRadius: 0.12
+  patrolObstacleLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  patrolRandomPointAttempts: 32
+  patrolPairAttempts: 48
+--- !u!95 &1262953038
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262953027}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34981ecb32ba1774596ab6bcdb1733f7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1262953039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262953027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e6c29e32504465faa943c537d8029b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.Patrol
+  version: 1073741824
+  targets:
+  - {fileID: 1479977242}
+  - {fileID: 1324789340}
+  delay: 0
+  updateDestinationEveryFrame: 0
+--- !u!114 &1262953040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262953027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560112f876f5746c780eca0d404e7139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.RVO.RVOController
+  version: 1073741824
+  radiusBackingField: 0.5
+  heightBackingField: 2
+  centerBackingField: 1
+  locked: 0
+  lockWhenNotMoving: 0
+  agentTimeHorizon: 2
+  obstacleTimeHorizon: 0.5
+  maxNeighbours: 10
+  layer: 1
+  collidesWith: -1
+  wallAvoidForce: 1
+  wallAvoidFalloff: 1
+  priority: 0.5
+  debug: 0
+--- !u!114 &1262953041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262953027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb6a34d769a1e4ac7b0b30e433aa443c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.SimpleSmoothModifier
+  version: 1073741824
+  smoothType: 1
+  subdivisions: 2
+  iterations: 2
+  strength: 0.5
+  uniformLength: 1
+  maxSegmentLength: 2
+  bezierTangentLength: 0.4
+  offset: 0.2
+  factor: 0.1
+--- !u!114 &1262953042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262953027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f586f285b3847808d79083bd19ef1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.FunnelModifier
+  version: 1073741824
+  quality: 0
+  splitAtEveryPortal: 0
+  accountForGridPenalties: 0
+--- !u!1 &1324789339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1324789340}
+  m_Layer: 0
+  m_Name: PatrolPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1324789340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324789339}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.23, y: -0.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1045605958}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1349654943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1218,6 +1393,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e53cc0a5cd69304b88e04b6df2b0a5b, type: 3}
+--- !u!1 &1479977241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1479977242}
+  m_Layer: 0
+  m_Name: PatrolPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1479977242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479977241}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.36, y: 2.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1045605958}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844782479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,14 +1654,71 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6716fad3cb3bcd478cb4769bb80b5e5, type: 3}
+--- !u!1001 &6090391129757592879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254797693792949236, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_Name
+      value: PathFindingManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d388c13389085ba499120f52215aa699, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 161861671}
-  - {fileID: 1262953033}
   - {fileID: 1844782480}
-  - {fileID: 166237546}
+  - {fileID: 6090391129757592879}
   - {fileID: 917613197}
   - {fileID: 2030751784794357545}
   - {fileID: 1349654943}
+  - {fileID: 1045605958}
