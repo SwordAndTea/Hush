@@ -6,6 +6,7 @@
             <ui:VisualElement name="WinImage" class="win-image hidden"/>
             <ui:Label name="StatusLabel" text="You Fail" class="status-label fail"/>
             <ui:Button name="ReplayButton" text="Replay" class="replay-button"/>
+            <ui:Button name="ExitButton" text="Exit Game" class="replay-button"/>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

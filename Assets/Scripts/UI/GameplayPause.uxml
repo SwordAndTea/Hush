@@ -7,6 +7,7 @@
             <ui:Slider name="VolumeSlider" low-value="0" high-value="1" value="1" class="volume-slider"/>
             <ui:Button name="RestartButton" text="Restart" class="pause-button"/>
             <ui:Button name="ResumeButton" text="Resume" class="pause-button"/>
+            <ui:Button name="ExitButton" text="Exit Game" class="pause-button"/>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

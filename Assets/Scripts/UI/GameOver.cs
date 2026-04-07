@@ -23,14 +23,16 @@ public class GameOver : MonoBehaviour
         winImage = uiDocument.rootVisualElement.Q<VisualElement>("WinImage");
         statusLabel = uiDocument.rootVisualElement.Q<Label>("StatusLabel");
         Button replayButton = uiDocument.rootVisualElement.Q<Button>("ReplayButton");
+        Button exitButton = uiDocument.rootVisualElement.Q<Button>("ExitButton");
 
-        if (gameOverRoot == null || failImage == null || winImage == null || statusLabel == null || replayButton == null)
+        if (gameOverRoot == null || failImage == null || winImage == null || statusLabel == null || replayButton == null || exitButton == null)
         {
             Debug.LogError("GameOver UI references are missing. Check GameOver.uxml names.");
             return;
         }
 
         replayButton.clicked += Replay;
+        exitButton.clicked += ExitGame;
     }
 
     private void Start()
@@ -85,5 +87,15 @@ public class GameOver : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void ExitGame()
+    {
+        Time.timeScale = 1f;
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }

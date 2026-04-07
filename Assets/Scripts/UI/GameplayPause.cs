@@ -11,6 +11,8 @@ public class GameplayPause : MonoBehaviour
     private Label volumeLabel;
     private InputAction exitAction;
     private bool isPaused;
+    private bool enabledExitActionLocally;
+    private int lastToggleFrame = -1;
 
     private void Awake()
     {
@@ -24,10 +26,11 @@ public class GameplayPause : MonoBehaviour
         pauseRoot = uiDocument.rootVisualElement.Q<VisualElement>("PauseRoot");
         Button restartButton = uiDocument.rootVisualElement.Q<Button>("RestartButton");
         Button resumeButton = uiDocument.rootVisualElement.Q<Button>("ResumeButton");
+        Button exitButton = uiDocument.rootVisualElement.Q<Button>("ExitButton");
         Slider volumeSlider = uiDocument.rootVisualElement.Q<Slider>("VolumeSlider");
         volumeLabel = uiDocument.rootVisualElement.Q<Label>("VolumeLabel");
 
-        if (pauseRoot == null || restartButton == null || resumeButton == null || volumeSlider == null || volumeLabel == null)
+        if (pauseRoot == null || restartButton == null || resumeButton == null || exitButton == null || volumeSlider == null || volumeLabel == null)
         {
             Debug.LogError("GameplayPause UI references are missing. Check GameplayPause.uxml names.");
             return;
@@ -35,6 +38,7 @@ public class GameplayPause : MonoBehaviour
 
         restartButton.clicked += RestartScene;
         resumeButton.clicked += ResumeGame;
+        exitButton.clicked += ExitGame;
         volumeSlider.RegisterValueChangedCallback(OnVolumeChanged);
         volumeSlider.value = AudioListener.volume;
         UpdateVolumeLabel(AudioListener.volume);
@@ -50,13 +54,25 @@ public class GameplayPause : MonoBehaviour
     private void OnEnable()
     {
         if (exitAction != null)
+        {
+            if (!exitAction.enabled)
+            {
+                exitAction.Enable();
+                enabledExitActionLocally = true;
+            }
             exitAction.performed += OnExitPerformed;
+        }
     }
 
     private void OnDisable()
     {
         if (exitAction != null)
+        {
             exitAction.performed -= OnExitPerformed;
+            if (enabledExitActionLocally && exitAction.enabled)
+                exitAction.Disable();
+        }
+        enabledExitActionLocally = false;
 
         if (isPaused)
             Time.timeScale = 1f;
@@ -72,6 +88,22 @@ public class GameplayPause : MonoBehaviour
 
     private void OnExitPerformed(InputAction.CallbackContext _)
     {
+        TogglePause();
+    }
+
+    private void Update()
+    {
+        // Fallback so Escape still works even if the Exit action is not configured.
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+            TogglePause();
+    }
+
+    private void TogglePause()
+    {
+        if (lastToggleFrame == Time.frameCount)
+            return;
+
+        lastToggleFrame = Time.frameCount;
         SetPaused(!isPaused);
     }
 
@@ -106,6 +138,16 @@ public class GameplayPause : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void ExitGame()
+    {
+        Time.timeScale = 1f;
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 
     private void OnVolumeChanged(ChangeEvent<float> evt)

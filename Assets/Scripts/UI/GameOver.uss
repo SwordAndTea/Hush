@@ -60,6 +60,8 @@
 .replay-button {
     height: 92px;
     font-size: 34px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     color: rgb(235, 218, 218);
     background-color: rgba(40, 8, 8, 0.95);
     border-top-width: 2px;
