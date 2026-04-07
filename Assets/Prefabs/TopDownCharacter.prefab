@@ -197,9 +197,10 @@ MonoBehaviour:
   walSpeed: 100
   runSpeed: 150
   webTrapDurationSeconds: 3
+  health: 3
   webTrapAnimatorStatePath: Base Layer.ShakeSpiderWeb
   webTrapAnimatorLayer: 0
-  health: 100
+  enemyTag: Enemy
 --- !u!1 &3700554149197452764
 GameObject:
   m_ObjectHideFlags: 0
