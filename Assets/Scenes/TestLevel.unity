@@ -119,6 +119,111 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &33468952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
 --- !u!4 &102099436 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4249706118575965257, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
@@ -192,6 +297,521 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11b6f747c6d18074284c01d2b85a4d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOver
+--- !u!1001 &351523970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+--- !u!1001 &352761671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334695.2,-134.9982)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-3.75001526,200.365784)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-198.9668,168.578827)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-197.3125,149.170624)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-113.59375,114.884979)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116.40625,114.884979)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(206.066345,175.001541)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AIEnemy.Crawler.Behaviors.CrawlerChase","NodeData":{"Offset":"(-71.25,131.736328)"},"ID":7,"Name":"Crawler
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerGrab","NodeData":{"Offset":"(83.96875,125.613953)"},"ID":8,"Name":"Crawler
+        Grab","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerPatrol","NodeData":{"Offset":"(236.3125,132.0018)"},"ID":9,"Name":"Crawler
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: runSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: patrolSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095986407653642717, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_Name
+      value: CrawlerEnemy_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+--- !u!1001 &425836702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 50.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+--- !u!1001 &710435462
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+--- !u!1001 &743662355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334695.2,-134.9982)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-3.75001526,200.365784)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-198.9668,168.578827)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-197.3125,149.170624)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-113.59375,114.884979)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116.40625,114.884979)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(206.066345,175.001541)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AIEnemy.Crawler.Behaviors.CrawlerChase","NodeData":{"Offset":"(-71.25,131.736328)"},"ID":7,"Name":"Crawler
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerGrab","NodeData":{"Offset":"(83.96875,125.613953)"},"ID":8,"Name":"Crawler
+        Grab","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerPatrol","NodeData":{"Offset":"(236.3125,132.0018)"},"ID":9,"Name":"Crawler
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 42.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: runSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: patrolSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095986407653642717, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_Name
+      value: CrawlerEnemy_2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
 --- !u!1 &919589929
 GameObject:
   m_ObjectHideFlags: 0
@@ -53656,6 +54276,111 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e53cc0a5cd69304b88e04b6df2b0a5b, type: 3}
+--- !u!1001 &1010254223
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
 --- !u!1001 &1085707524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53666,7 +54391,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2879252024731567133, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: runSpeed
-      value: 150
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: -2879252024731567133, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
+      propertyPath: walSpeed
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: -2879252024731567133, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.size
@@ -53750,11 +54479,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4249706118575965257, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.32
+      value: -4.67
       objectReference: {fileID: 0}
     - target: {fileID: 4249706118575965257, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06691
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4249706118575965257, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -53797,6 +54526,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
+--- !u!114 &1085707525 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 397243324569289259, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
+  m_PrefabInstance: {fileID: 1085707524}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+--- !u!82 &1085707526 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8464579842179615562, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
+  m_PrefabInstance: {fileID: 1085707524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1378876506
 GameObject:
   m_ObjectHideFlags: 0
@@ -53929,7 +54674,7 @@ Transform:
   m_GameObject: {fileID: 1378876506}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.32, y: 0.06691, z: -10}
+  m_LocalPosition: {x: -4.67, y: -0.4, z: -10}
   m_LocalScale: {x: -0.58654255, y: 1.3801, z: 1.3801}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53981,7 +54726,7 @@ GameObject:
   - component: {fileID: 1564291233}
   - component: {fileID: 1564291232}
   - component: {fileID: 1564291231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap_Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100716,7 +101461,7 @@ GameObject:
   - component: {fileID: 1782179811}
   - component: {fileID: 1782179810}
   - component: {fileID: 1782179812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap_Decorations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101098,6 +101843,67 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1001 &1888612837
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.06472
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.91139
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367308763732068567, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254797693792949236, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: m_Name
+      value: PathFindingManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743854218543388793, guid: d388c13389085ba499120f52215aa699, type: 3}
+      propertyPath: data.dataString
+      value: UEsDBBQAAAgIAACYn+sGeRa22wIAABYGAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1v4jAQ/SvI5wUloUCzt12gdA9t0dJVD0sPJp4QC2NH/ijQiv++YychgZUq4b75fG9m8kW4NCVkVumF5uxJMSDfe8S/ybdea3yEI90queKf0Pi8cWYL70SDz29quUI89mFG7cFqnv2QW+GdIwSd5LnS+znbwlQZaxDOqTCAJq2sj5YIffXIEX/6qQ854SuZ+NcnvtKod8ZnBtKCbl1HyWAYD8fjybCOiNPBJI3SUTKpA/vxIBmn9wjN+9EkJHEyE3RfAvOM2lzxJB2MmjTDUXCVyLf2ioIxU0JwU7dL7KkMckxpaRySRQfGKdIPPXo1CuDbwnoq3eCXPDdga200Pc24RhWrrOSnqqTdU7Oruvugwvk647vQVJXz6T9zPw7mXKv9Y1M2jnwJW/Bs95ueMmpsR/ouPLvu28kDFTu6EfBWgHxWC62cZGi02vlQZyCZtf9emE0LyHYtXrV6A7qyFb2ZdHQZV+98DuSPKwvlhUc0uGvRPwbMSqigfcPFm2oorA9oHN0vJBSWy9QlEPVdYoJXuu1uYW144NpYNNUq1Kj3XeKEgIHMoBa+7x2k72+jnPa5yDw06+Vwdqq0hADXrEuQVNjTEjPa2xW4sXX6urE8UH+QdXe1rbmzm5AAt/5RdGNaqsNl2hqX14SNbl5/3/0UTKEOT2CKF2cFl9CS8YZnFHiqpKw2tytmE7ZyOqdZJ8zC0ToNM2ppqIbt4IaxbihqGSKkE8IvcyAQOkIC/u/d61tQrCsCTJ6VDJd39Rva3zrOrk+EZEnKRpANo3FyvwHK+hGLN2kKLB8mcHefMRJuiEuUm4plpVc9Jdwu2XKReC/N57K30LQMR8s0PSz45151Js9lrlaZBpAvVYYLWdBYBD8vbM440lyBtVyGvSRfayJUtgO2viRaB2HnR6vpus2yJiX/UNYjazIN38c18fDlJnF1PzgcfPGrZCBwdMBeuYA9Lb0pPpPzP1BLAwQUAAAICAAAmJ/rBTRFp2wAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDVM9Ez01FQSi9KLMgoBgoYgjilmSkgdrRSspFlimlqsrGBmZFFUmpiiq5BimGSpWVqSpqxUaqJRXKKUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+sGeRa22wIAABYGAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+sFNEWnbAAAAHcAAAAJACQAAAAAAAAAAAAAACgDAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAA3wMAAAAA
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d388c13389085ba499120f52215aa699, type: 3}
 --- !u!1 &2025190609
 GameObject:
   m_ObjectHideFlags: 0
@@ -101579,7 +102385,7 @@ Transform:
   m_GameObject: {fileID: 2069534930}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.32, y: 0.06691, z: -10}
+  m_LocalPosition: {x: -4.67, y: -0.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101696,3 +102502,11 @@ SceneRoots:
   - {fileID: 3965845039005491873}
   - {fileID: 254532147}
   - {fileID: 1757076792}
+  - {fileID: 352761671}
+  - {fileID: 743662355}
+  - {fileID: 1888612837}
+  - {fileID: 351523970}
+  - {fileID: 425836702}
+  - {fileID: 1010254223}
+  - {fileID: 710435462}
+  - {fileID: 33468952}
