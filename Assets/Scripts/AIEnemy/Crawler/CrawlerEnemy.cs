@@ -16,6 +16,8 @@ namespace AIEnemy.Crawler
         private Quaternion _rotationMovingRight;
         private Patrol _patrol;
         private bool _isGrabbing;
+        private bool _grabComplete;
+        private TopDownCharacterControl _grabbedPlayer;
 
         public bool ReachedDestination => _pathfinder.reachedEndOfPath;
         public bool CanPatrol => _patrol != null;
@@ -127,6 +129,9 @@ namespace AIEnemy.Crawler
 
         public void Grab()
         {
+            if (_grabComplete)
+                return;
+
             if (_animator != null)
                 _animator.SetBool(IsGrabbingHash, true);
             _isGrabbing = true;
@@ -135,9 +140,23 @@ namespace AIEnemy.Crawler
             Collider2D hit = Physics2D.OverlapCircle(origin, grabRange, grabTargetLayers);
             if (hit != null)
             {
-                var player = hit.GetComponent<TopDownCharacterControl>();
-                if (player != null)
-                    player.TakeDamage(grabDamage);
+                _grabbedPlayer = hit.GetComponent<TopDownCharacterControl>();
+                if (_grabbedPlayer != null)
+                    _grabbedPlayer.BlockInput();
+            }
+        }
+
+        /// <summary>
+        /// Add as an Animation Event on the grab clip.
+        /// Deals the actual grab damage partway through the animation.
+        /// </summary>
+        public void GrabDealDamage()
+        {
+            if (_grabbedPlayer != null)
+            {
+                _grabbedPlayer.TakeDamage(grabDamage);
+                if (!_grabbedPlayer.enabled)
+                    _grabComplete = true;
             }
         }
 
@@ -147,9 +166,21 @@ namespace AIEnemy.Crawler
         /// </summary>
         public void GrabAnimationEnd()
         {
+            if (_grabbedPlayer != null)
+            {
+                _grabbedPlayer.UnblockInput();
+                _grabbedPlayer = null;
+            }
+
             _isGrabbing = false;
             if (_animator != null)
                 _animator.SetBool(IsGrabbingHash, false);
+
+            if (_grabComplete)
+            {
+                StopPathfinding();
+                StopPatrol();
+            }
         }
 
         public bool IsTargetInGrabRange(Vector2 targetPosition)
