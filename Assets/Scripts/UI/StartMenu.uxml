@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/StartMenu.uss?fileID=7433441132597879392&amp;guid=e6adf174ff36a4d45addf0b6674c1531&amp;type=3#StartMenu"/>
+    <ui:VisualElement name="Root" class="root">
+        <ui:VisualElement name="Overlay" class="overlay">
+            <ui:VisualElement name="MainPanel" class="panel">
+                <ui:Button name="StartButton" text="" class="start-image-button"/>
+                <ui:Button name="SettingsButton" text="" class="settings-image-button"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="SettingsPanel" class="panel hidden">
+                <ui:Label text="Settings" class="settings-title"/>
+                <ui:Label name="VolumeValueLabel" text="Volume: 100%" class="volume-label"/>
+                <ui:Slider name="VolumeSlider" low-value="0" high-value="1" value="1" class="volume-slider"/>
+                <ui:Button name="BackButton" text="Back" class="horror-button"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

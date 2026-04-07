@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/GameplayPause.uss?fileID=7433441132597879392&amp;guid=1db9414b153b7ad47aa9f09a7547e82a&amp;type=3#GameplayPause"/>
+    <ui:VisualElement name="PauseRoot" class="pause-root hidden">
+        <ui:VisualElement name="PausePanel" class="pause-panel">
+            <ui:Label text="Paused" class="pause-title"/>
+            <ui:Label name="VolumeLabel" text="Volume: 100%" class="volume-label"/>
+            <ui:Slider name="VolumeSlider" low-value="0" high-value="1" value="1" class="volume-slider"/>
+            <ui:Button name="RestartButton" text="Restart" class="pause-button"/>
+            <ui:Button name="ResumeButton" text="Resume" class="pause-button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+
