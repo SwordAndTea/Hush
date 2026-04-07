@@ -106,7 +106,7 @@ Animator:
   m_GameObject: {fileID: 1630997301079397110}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cb25f6025abaa5e4991879c44fd58cdf, type: 2}
+  m_Controller: {fileID: 9100000, guid: b7c537623744d7448b142645fcddd9fb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -196,7 +196,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TopDownCharacterControl
   walSpeed: 100
   runSpeed: 150
-  health: 100
+  webTrapDurationSeconds: 3
+  health: 3
+  webTrapAnimatorStatePath: Base Layer.ShakeSpiderWeb
+  webTrapAnimatorLayer: 0
+  enemyTag: Enemy
 --- !u!1 &3700554149197452764
 GameObject:
   m_ObjectHideFlags: 0
