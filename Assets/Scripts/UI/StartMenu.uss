@@ -1,0 +1,144 @@
+.root {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Sprites/UI/Start_Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.panel {
+    min-width: 360px;
+    max-width: 420px;
+    padding-top: 28px;
+    padding-right: 24px;
+    padding-bottom: 28px;
+    padding-left: 24px;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    font-size: 44px;
+    color: rgb(191, 36, 36);
+    unity-font-style: bold;
+    letter-spacing: 4px;
+    unity-text-align: middle-center;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(170, 28, 28, 0.5);
+}
+
+.settings-title {
+    font-size: 32px;
+    color: rgb(185, 45, 45);
+    unity-font-style: bold;
+    unity-text-align: middle-center;
+    margin-bottom: 12px;
+}
+
+.horror-button {
+    height: 46px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: rgb(235, 218, 218);
+    background-color: rgba(40, 8, 8, 0.92);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-color: rgb(145, 26, 26);
+    border-right-color: rgb(90, 18, 18);
+    border-bottom-color: rgb(70, 12, 12);
+    border-left-color: rgb(90, 18, 18);
+    font-size: 18px;
+    unity-font-style: bold;
+}
+
+.start-image-button {
+    height: 126px;
+    margin-top: 4px;
+    margin-bottom: 14px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../../Sprites/UI/Start_Game_Text.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -unity-background-scale-mode: scale-to-fit;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    color: rgba(0, 0, 0, 0);
+}
+
+.start-image-button:hover {
+    -unity-background-image-tint-color: rgba(255, 185, 185, 1);
+    scale: 1.07 1.07;
+}
+
+.start-image-button:active {
+    -unity-background-image-tint-color: rgba(210, 100, 100, 1);
+    scale: 1.02 1.02;
+}
+
+.settings-image-button {
+    height: 126px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../../Sprites/UI/Settings_Text.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -unity-background-scale-mode: scale-to-fit;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    color: rgba(0, 0, 0, 0);
+}
+
+.settings-image-button:hover {
+    -unity-background-image-tint-color: rgba(255, 185, 185, 1);
+    scale: 1.07 1.07;
+}
+
+.settings-image-button:active {
+    -unity-background-image-tint-color: rgba(210, 100, 100, 1);
+    scale: 1.02 1.02;
+}
+
+.horror-button:hover {
+    background-color: rgba(66, 12, 12, 0.98);
+    color: rgb(255, 228, 228);
+}
+
+.horror-button:active {
+    background-color: rgba(88, 15, 15, 1);
+}
+
+.volume-label {
+    color: rgb(220, 190, 190);
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.volume-slider {
+    margin-top: 4px;
+    margin-bottom: 18px;
+}

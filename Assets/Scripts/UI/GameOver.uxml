@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/GameOver.uss?fileID=7433441132597879392&amp;guid=a5f471227c1cde741b3215c9cbc13916&amp;type=3#GameOver"/>
+    <ui:VisualElement name="GameOverRoot" class="game-over-root hidden">
+        <ui:VisualElement name="GameOverPanel" class="game-over-panel">
+            <ui:VisualElement name="FailImage" class="fail-image hidden"/>
+            <ui:VisualElement name="WinImage" class="win-image hidden"/>
+            <ui:Label name="StatusLabel" text="You Fail" class="status-label fail"/>
+            <ui:Button name="ReplayButton" text="Replay" class="replay-button"/>
+            <ui:Button name="ExitButton" text="Exit Game" class="replay-button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,6 +1,7 @@
 using AIEnemy.Crawler;
 using AIEnemy.Spider;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class TopDownCharacterControl : MonoBehaviour
@@ -35,6 +36,14 @@ public class TopDownCharacterControl : MonoBehaviour
     [Range(1, 5)]
     [SerializeField] int health = 3;
 
+    [Header("Combat · events")]
+    [Tooltip("Invoked whenever health changes. Passes the current health value.")]
+    [SerializeField] private UnityEvent<int> onHealthUpdated = new UnityEvent<int>();
+    [Tooltip("Invoked when player health reaches zero.")]
+    [SerializeField] private UnityEvent onDeath = new UnityEvent();
+    [Tooltip("Invoked when player escapes successfully.")]
+    [SerializeField] private UnityEvent onEscapeSuccess = new UnityEvent();
+
     [Header("Spider web · animator")]
     [Tooltip("Full animator state path for the web-trap clip (layer path + state name). Used to restart the clip from the beginning on every hit while IsTrappedByWeb stays true.")]
     [SerializeField] string webTrapAnimatorStatePath = "Base Layer.ShakeSpiderWeb";
@@ -65,6 +74,7 @@ public class TopDownCharacterControl : MonoBehaviour
     private float _webTrapEndTime;
 
     private bool _canHurt = true;
+    private bool _isInputBlocked;
 
     #endregion
 
@@ -82,6 +92,11 @@ public class TopDownCharacterControl : MonoBehaviour
             _animator.SetInteger("Health", health);
     }
 
+    private void Start()
+    {
+        onHealthUpdated?.Invoke(health);
+    }
+
     // Update is called once per frame
     private void Update()
     {
@@ -92,7 +107,7 @@ public class TopDownCharacterControl : MonoBehaviour
                 _animator.SetBool("IsTrappedByWeb", false);
         }
 
-        if (!_canHurt || _isTrappedByWeb)
+        if (!_canHurt || _isTrappedByWeb || _isInputBlocked)
         {
             _moveInputValue = Vector2.zero;
             if (_rb != null)
@@ -164,7 +179,7 @@ public class TopDownCharacterControl : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!_canHurt || _isTrappedByWeb)
+        if (!_canHurt || _isTrappedByWeb || _isInputBlocked)
         {
             if (_rb != null)
                 _rb.linearVelocity = Vector2.zero;
@@ -310,12 +325,43 @@ public class TopDownCharacterControl : MonoBehaviour
             _animator.SetBool("IsHurt", true);
     }
 
+    public void BlockInput()
+    {
+        _isInputBlocked = true;
+        _moveInputValue = Vector2.zero;
+        _isRunning = false;
+        if (_rb != null)
+            _rb.linearVelocity = Vector2.zero;
+        if (_animator != null)
+        {
+            _animator.SetBool("IsMoving", false);
+            _animator.SetBool("IsRunning", false);
+        }
+        UpdateRunAudio();
+    }
+
+    public void UnblockInput()
+    {
+        _isInputBlocked = false;
+    }
+
+    public void TriggerFailEvent()
+    {
+        onDeath?.Invoke();
+    }
+
+    public void TriggerWinEvent()
+    {
+        onEscapeSuccess?.Invoke();
+    }
+
     /// <summary>Subtracts damage, updates animator Health, and disables control on death. Returns false if dead.</summary>
     bool ApplyHealthLoss(int damage)
     {
         health = Mathf.Max(0, health - damage);
         if (_animator != null)
             _animator.SetInteger("Health", health);
+        onHealthUpdated?.Invoke(health);
 
         if (health > 0)
             return true;
@@ -323,6 +369,7 @@ public class TopDownCharacterControl : MonoBehaviour
         if (_animator != null)
             _animator.SetBool("IsHurt", false);
         ZeroMovementAndClearWeb();
+        onDeath?.Invoke();
         enabled = false;
         return false;
     }
