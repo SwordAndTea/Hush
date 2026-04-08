@@ -24,6 +24,9 @@ namespace AIEnemy.Spider.Behaviors
 
         public override TaskStatus OnUpdate()
         {
+            if (_spider == null)
+                return TaskStatus.Failure;
+
             if (_spider.IsShotingWeb)
             {
                 return TaskStatus.Running;

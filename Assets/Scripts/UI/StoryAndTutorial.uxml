@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/StoryAndTutorial.uss?fileID=7433441132597879392&amp;guid=ee29f957f28aa074782a2ad2c538d522&amp;type=3#StoryAndTutorial"/>
+    <ui:VisualElement name="story-tutorial-root" class="story-tutorial-root">
+        <ui:VisualElement class="story-tutorial-panel">
+            <ui:Label text="A Quiet Signal" class="story-tutorial-title"/>
+            <ui:Label text="You wake up inside the buried halls of Hush Dungeon. The only way out is the old stairwell with three keyholes: one forged with silver, one with gold, and one with ancient grey matter. Move throughout the dungeon, find the stairwell, recover all three keys, and unlock the exit if you can reach it in one piece..." class="story-tutorial-story"/>
+            <ui:Label text="Goal: Find all THREE KEYS, then escape through the EXIT STAIRS." class="story-tutorial-goal"/>
+            <ui:Label text="How to Play" class="story-tutorial-subtitle"/>
+            <ui:Label text="- Move with [W][A][S][D].&#10;- Hold [Shift] to sprint (sprinting creates noise).&#10;- Press [Esc] to pause the game." class="story-tutorial-tutorial"/>
+            <ui:Button name="story-tutorial-continue" text="Begin" class="story-tutorial-button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

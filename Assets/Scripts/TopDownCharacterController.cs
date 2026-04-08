@@ -97,6 +97,11 @@ public class TopDownCharacterControl : MonoBehaviour
         onHealthUpdated?.Invoke(health);
     }
 
+    private void OnDisable()
+    {
+        StopRunAudio();
+    }
+
     // Update is called once per frame
     private void Update()
     {
@@ -174,6 +179,13 @@ public class TopDownCharacterControl : MonoBehaviour
                 _runAudio.Play();
         }
         else
+            _runAudio.Stop();
+    }
+
+    private void StopRunAudio()
+    {
+        _isRunning = false;
+        if (_runAudio != null && _runAudio.isPlaying)
             _runAudio.Stop();
     }
 
@@ -369,6 +381,7 @@ public class TopDownCharacterControl : MonoBehaviour
         if (_animator != null)
             _animator.SetBool("IsHurt", false);
         ZeroMovementAndClearWeb();
+        StopRunAudio();
         onDeath?.Invoke();
         enabled = false;
         return false;

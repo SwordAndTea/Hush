@@ -29,6 +29,7 @@ namespace AIEnemy.Spider
         [SerializeField] Transform webShotPoint;
         [SerializeField] float webSpeed = 8f;
         [SerializeField] float webMaxDistance = 6f;
+        [SerializeField, Min(1f)] float webShotCooldown = 3f;
 
         [Space]
         [Header("Patrol · random generation (StartPatrol)")]
@@ -44,6 +45,7 @@ namespace AIEnemy.Spider
 
         private Transform _patrolRuntimeTargetA;
         private Transform _patrolRuntimeTargetB;
+        private float _nextWebShotTime;
 
         private void Awake()
         {
@@ -117,6 +119,8 @@ namespace AIEnemy.Spider
         {
             if (spiderWebPrefab == null || webShotPoint == null)
                 return;
+            if (_isShotingWeb || Time.time < _nextWebShotTime)
+                return;
 
             if (worldTarget.x > transform.position.x)
                 transform.localRotation = _rotationMovingRight;
@@ -126,6 +130,7 @@ namespace AIEnemy.Spider
             if (_animator != null)
                 _animator.SetBool(IsShotingWebHash, true);
             _isShotingWeb = true;
+            _nextWebShotTime = Time.time + Mathf.Max(0f, webShotCooldown);
 
             Vector2 start = webShotPoint.position;
             float z = webShotPoint.position.z;
