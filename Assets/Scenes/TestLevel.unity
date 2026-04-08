@@ -119,6 +119,110 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &21514449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334695.2,-134.9982)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-3.75001526,200.365784)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-198.9668,168.578827)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-197.3125,149.170624)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-113.59375,114.884979)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116.40625,114.884979)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(206.066345,175.001541)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AIEnemy.Crawler.Behaviors.CrawlerChase","NodeData":{"Offset":"(-71.25,131.736328)"},"ID":7,"Name":"Crawler
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerGrab","NodeData":{"Offset":"(83.96875,125.613953)"},"ID":8,"Name":"Crawler
+        Grab","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerPatrol","NodeData":{"Offset":"(236.3125,132.0018)"},"ID":9,"Name":"Crawler
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 75.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 36.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: runSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: patrolSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095986407653642717, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_Name
+      value: CrawlerEnemy_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095986407653642717, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
 --- !u!1001 &33468952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -273,11 +377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.8
+      value: 44.21
       objectReference: {fileID: 0}
     - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 57.96
+      value: 58.66
       objectReference: {fileID: 0}
     - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -337,6 +441,115 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4249706118575965257, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
   m_PrefabInstance: {fileID: 1085707524}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &139213043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 54.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
 --- !u!1001 &254532147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -679,6 +892,110 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+--- !u!1001 &296330020
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334695.2,-134.9982)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-3.75001526,200.365784)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-198.9668,168.578827)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-197.3125,149.170624)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-113.59375,114.884979)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116.40625,114.884979)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(206.066345,175.001541)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AIEnemy.Crawler.Behaviors.CrawlerChase","NodeData":{"Offset":"(-71.25,131.736328)"},"ID":7,"Name":"Crawler
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerGrab","NodeData":{"Offset":"(83.96875,125.613953)"},"ID":8,"Name":"Crawler
+        Grab","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerPatrol","NodeData":{"Offset":"(236.3125,132.0018)"},"ID":9,"Name":"Crawler
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 81.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 35.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: runSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: patrolSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095986407653642717, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_Name
+      value: CrawlerEnemy_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095986407653642717, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
 --- !u!1001 &351523970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55149,6 +55466,115 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1069375187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
 --- !u!1001 &1085707524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55159,7 +55585,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2879252024731567133, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: runSpeed
-      value: 450
+      value: 370
       objectReference: {fileID: 0}
     - target: {fileID: -2879252024731567133, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: walSpeed
@@ -55247,7 +55673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 397243324569289259, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: m_PointLightOuterRadius
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1630997301079397110, guid: 690402f4899cd4047a50d1d90c2afa4f, type: 3}
       propertyPath: m_Name
@@ -55896,6 +56322,115 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1458897544
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 42.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 68.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
 --- !u!1001 &1476256328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56109,6 +56644,110 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+--- !u!1001 &1533111890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334695.2,-134.9982)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-3.75001526,200.365784)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-198.9668,168.578827)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-197.3125,149.170624)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-113.59375,114.884979)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116.40625,114.884979)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(206.066345,175.001541)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AIEnemy.Crawler.Behaviors.CrawlerChase","NodeData":{"Offset":"(-71.25,131.736328)"},"ID":7,"Name":"Crawler
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerGrab","NodeData":{"Offset":"(83.96875,125.613953)"},"ID":8,"Name":"Crawler
+        Grab","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Crawler.Behaviors.CrawlerPatrol","NodeData":{"Offset":"(236.3125,132.0018)"},"ID":9,"Name":"Crawler
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: -8780244767212080477, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 78.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 35.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: runSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807949175737385596, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: patrolSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095986407653642717, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_Name
+      value: CrawlerEnemy_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095986407653642717, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
 --- !u!1001 &1548897510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100016,11 +100655,120 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 120.7
+      value: 122.01
       objectReference: {fileID: 0}
     - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: -0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+--- !u!1001 &1589758596
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 133.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.16
       objectReference: {fileID: 0}
     - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
       propertyPath: m_LocalPosition.z
@@ -100125,11 +100873,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.42
+      value: 43.73
       objectReference: {fileID: 0}
     - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35.2
+      value: 76.57
       objectReference: {fileID: 0}
     - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
       propertyPath: m_LocalPosition.z
@@ -100266,6 +101014,366 @@ Tilemap:
   m_GameObject: {fileID: 1701296685}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: -3, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -3, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 8
+      m_TileSpriteIndex: 8
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 10
+      m_TileSpriteIndex: 10
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 11
+      m_TileSpriteIndex: 11
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -3, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 13
+      m_TileSpriteIndex: 13
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 14
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 16
+      m_TileSpriteIndex: 16
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 17
+      m_TileSpriteIndex: 17
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -3, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 18
+      m_TileSpriteIndex: 18
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 19
+      m_TileSpriteIndex: 19
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 20
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 21
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 22
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -3, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 24
+      m_TileSpriteIndex: 24
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 25
+      m_TileSpriteIndex: 25
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 26
+      m_TileSpriteIndex: 26
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 28
+      m_TileSpriteIndex: 28
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -3, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 30
+      m_TileSpriteIndex: 30
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 31
+      m_TileSpriteIndex: 31
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 32
+      m_TileSpriteIndex: 32
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 33
+      m_TileSpriteIndex: 33
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 34
+      m_TileSpriteIndex: 34
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 35
+      m_TileSpriteIndex: 35
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -28, y: 25, z: 0}
     second:
       serializedVersion: 2
@@ -101708,153 +102816,153 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 2c5129f178e11fc4a924d5f8f5eb6ae6, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 7181b60e42328684a8e4507205a0fa3d, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: daff7c8c9b17e1d4db448b9a2b10ba6a, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: ca1917753132a9045bc439b969999cc5, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 22559ae17da195a4a91965e0cc574465, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 9283dfa342e198943905d4b5f60594d1, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: b16ff6687c8144940abd74697206d0ad, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: b768c8b87946d11459573342d4bbcf75, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: b1fe0d808cf964249b0c948ba2e5dac4, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: f3f16e7196252864f9e30a37a0ae243f, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 8b54badbfb15c8a4b91509ba2b421ee0, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 28d528eb9c3a8cc4cad80cee16fa45dd, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 629865b20efe37247b0e9cf2003c5e29, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 7ffa7cac447049349aa9056a391282f0, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: ce5b63f8a51d3424091f1ad98939ee0f, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: e90be5c29c1c28f44b8018874c2948eb, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: c316d8ffb916e5f4eaa05dd3fbfc0ae9, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: ee51c20c3857e594b99bdb52e028a98e, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 82ce80bdc24b2e843b61b9851a2d878f, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 42cdcaa0a9d321b448891c6d5de77c84, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 825149635e93a204692d645176f4d9df, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: b44380158e3c1b44b9dbe56c78c439b6, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: c4a27357a814b594eba750600149ae12, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 844c61f348987ed448d957763350af9d, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 3a10c2a783269f446ba88bc809780608, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: d387726f9059ae645a6df52f017f1dc2, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 820f96095991dc24cad0902958617e75, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: d4eaf11a03cf01b41acef26259fdfe4e, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: f6c69a4e2de29284cb06212ef4639da6, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 7551ba4ad8ee6da47bfc1fddf79f918b, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 82fc272d9523d5f498c8e09fd7695e36, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: edae90f0be815d1479edb1b756e790e2, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 2e9d69564505d404fbdffd3b109410fd, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 8e2121bc86259b24c92398fa9c3a6875, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 844e5c56d54987f45af8349f2bdb8883, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 84b2f909c31f3564b84787d20ac0d11f, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 961823750, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 837802900, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 1380586477, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -250189689, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1237806053, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1085041103, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 1993336775, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -2067044133, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -2081593108, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 1897012359, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -595113353, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1309176028, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -960563415, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 2106787974, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 203896869, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1762815358, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 1463561879, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 2044238092, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1764656571, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -383188204, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -2044499704, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1058614678, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1207707014, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -530157167, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 170294401, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -815646874, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 1274652113, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1942706014, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 725257890, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 1525624997, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -886647254, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -1015331661, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -591607404, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 741148672, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: 1587835513, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data: {fileID: -141652142, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 144
+  - m_RefCount: 180
     m_Data:
       e00: 1
       e01: 0
@@ -101873,13 +102981,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 144
+  - m_RefCount: 180
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -33, y: 0, z: 0}
-  m_Size: {x: 33, y: 45, z: 1}
+  m_Origin: {x: -33, y: -3, z: 0}
+  m_Size: {x: 36, y: 48, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -102014,7 +103122,8 @@ GameObject:
   - component: {fileID: 1708652736}
   - component: {fileID: 1708652738}
   - component: {fileID: 1708652737}
-  m_Layer: 0
+  - component: {fileID: 1708652739}
+  m_Layer: 6
   m_Name: Tilemap_Holes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102101,366 +103210,6 @@ Tilemap:
   m_GameObject: {fileID: 1708652735}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: -3, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 2, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 5
-      m_TileSpriteIndex: 5
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -3, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 6
-      m_TileSpriteIndex: 6
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 7
-      m_TileSpriteIndex: 7
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 8
-      m_TileSpriteIndex: 8
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 9
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 10
-      m_TileSpriteIndex: 10
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 2, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 11
-      m_TileSpriteIndex: 11
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -3, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 12
-      m_TileSpriteIndex: 12
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 13
-      m_TileSpriteIndex: 13
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 16
-      m_TileSpriteIndex: 16
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 2, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 17
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 18
-      m_TileSpriteIndex: 18
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 19
-      m_TileSpriteIndex: 19
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 20
-      m_TileSpriteIndex: 20
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 21
-      m_TileSpriteIndex: 21
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 22
-      m_TileSpriteIndex: 22
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 2, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 23
-      m_TileSpriteIndex: 23
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 24
-      m_TileSpriteIndex: 24
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 25
-      m_TileSpriteIndex: 25
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 26
-      m_TileSpriteIndex: 26
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 27
-      m_TileSpriteIndex: 27
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 28
-      m_TileSpriteIndex: 28
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 2, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 29
-      m_TileSpriteIndex: 29
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 30
-      m_TileSpriteIndex: 30
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -2, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 31
-      m_TileSpriteIndex: 31
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -1, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 32
-      m_TileSpriteIndex: 32
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 33
-      m_TileSpriteIndex: 33
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 34
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 2, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 35
-      m_TileSpriteIndex: 35
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 45, y: 54, z: 0}
     second:
       serializedVersion: 2
@@ -102943,78 +103692,78 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 98e685b3f1f038c4dacd833829f515ac, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: dec91e90df5952145b40cd0bfc0d2a59, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 55c77f655609fc549bdc240128de4594, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: d530d7f4198b49d4fb6fcc31785078fd, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: fce7d1da437976e40be08967f2abedf9, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4a5a0e711c143a24f85821c23c964767, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 21ec8614beb4e204d8d115e9078b5832, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: cb107c9123675a240844bdf87ea21ffe, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ec89124879ad8ce4b9b2fecc34b41040, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 6e66b6c73401ce94487dc0f8f39ff48f, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: d3f5e68bf812de947bf6ae153ea4e0f8, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 1b9c40ef0cfedd74b9fef9d557ff421c, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 09a5cfca0ccf0d24d81468f7e734c2e5, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: cb707fa6f54f5f0479dcd940df1a62ea, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 60e4e9a23a5e41943b1dfd074b2b9769, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 847151019e7587741bc2563320bf47f6, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 8d9b81537612ced45be4759bffb8c4a8, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 326059002c90a9946beedce7a51623b8, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 50d42133ea3fc9f47afaadd9909ceb16, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: e52cc7b2defe43046b2309b6c2dac989, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: bfb3a7bcbfdc14b459096c8fc2d0a9c6, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: f0e48195338bac84c8c896a52da4d0cc, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4d34cce9dbd9cdc46a051edb4edd2918, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 8d2c3097d9608e84e9f92a3d8ccba629, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 62d94dce2e9e579459302d5e498c406e, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 42a0461760bd0284088dd85561df4edc, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 3469fd27b0b9ab541a196d3982ab330e, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: b3d2757e3f1ea4c4dba6241dead3ed15, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 825b075a38200284cbbd7baffa62e58e, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: c0ce6e74c92a65740b6e0bba4cb079da, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ef02d7eb314be7c48869a99428c75543, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 26a6fe3dc84283d4692c8b0806d715f6, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: f1d05b946375bba41ab4f60d2e87e407, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 299f5f669685dbc4a8adf30aaf89fb04, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: c66fa5ca80cd95945bbd03ee3190d52b, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 11219eaec3135fa4aba665cfa17c2756, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: c8ee2c9b783622441b731c2da6131c81, type: 2}
   - m_RefCount: 4
@@ -103040,78 +103789,78 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: e1a9d0d7f2d84174393ef55f603f0c1e, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: -840796489, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1234569893, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1099198536, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -2071440530, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 178474596, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1395307967, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1175786659, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 154684646, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1282667159, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -378367522, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -2132812142, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1554455768, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -812251239, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1207185074, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1266138221, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1067927860, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 824485868, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -444971300, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1060103645, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1331643820, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 935636915, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1550241307, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1931832740, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 197120724, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1434958726, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -79998494, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 435592533, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1389846149, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1623356707, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1187452643, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 837567615, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1846839702, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -2102077042, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1539722956, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1514521061, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1124865773, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: -1177918748, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
   - m_RefCount: 4
@@ -103137,7 +103886,7 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 1181935358, guid: fbace9560f5c6c24187d7bd6c1dec14d, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 84
+  - m_RefCount: 48
     m_Data:
       e00: 1
       e01: 0
@@ -103156,7 +103905,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 84
+  - m_RefCount: 48
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -103182,6 +103931,44 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1708652739
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708652735}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1001 &1727234297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104127,7 +104914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8743854218543388793, guid: d388c13389085ba499120f52215aa699, type: 3}
       propertyPath: data.dataString
-      value: UEsDBBQAAAgIAACYn+sGeRa22wIAABYGAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1v4jAQ/SvI5wUloUCzt12gdA9t0dJVD0sPJp4QC2NH/ijQiv++YychgZUq4b75fG9m8kW4NCVkVumF5uxJMSDfe8S/ybdea3yEI90queKf0Pi8cWYL70SDz29quUI89mFG7cFqnv2QW+GdIwSd5LnS+znbwlQZaxDOqTCAJq2sj5YIffXIEX/6qQ854SuZ+NcnvtKod8ZnBtKCbl1HyWAYD8fjybCOiNPBJI3SUTKpA/vxIBmn9wjN+9EkJHEyE3RfAvOM2lzxJB2MmjTDUXCVyLf2ioIxU0JwU7dL7KkMckxpaRySRQfGKdIPPXo1CuDbwnoq3eCXPDdga200Pc24RhWrrOSnqqTdU7Oruvugwvk647vQVJXz6T9zPw7mXKv9Y1M2jnwJW/Bs95ueMmpsR/ouPLvu28kDFTu6EfBWgHxWC62cZGi02vlQZyCZtf9emE0LyHYtXrV6A7qyFb2ZdHQZV+98DuSPKwvlhUc0uGvRPwbMSqigfcPFm2oorA9oHN0vJBSWy9QlEPVdYoJXuu1uYW144NpYNNUq1Kj3XeKEgIHMoBa+7x2k72+jnPa5yDw06+Vwdqq0hADXrEuQVNjTEjPa2xW4sXX6urE8UH+QdXe1rbmzm5AAt/5RdGNaqsNl2hqX14SNbl5/3/0UTKEOT2CKF2cFl9CS8YZnFHiqpKw2tytmE7ZyOqdZJ8zC0ToNM2ppqIbt4IaxbihqGSKkE8IvcyAQOkIC/u/d61tQrCsCTJ6VDJd39Rva3zrOrk+EZEnKRpANo3FyvwHK+hGLN2kKLB8mcHefMRJuiEuUm4plpVc9Jdwu2XKReC/N57K30LQMR8s0PSz45151Js9lrlaZBpAvVYYLWdBYBD8vbM440lyBtVyGvSRfayJUtgO2viRaB2HnR6vpus2yJiX/UNYjazIN38c18fDlJnF1PzgcfPGrZCBwdMBeuYA9Lb0pPpPzP1BLAwQUAAAICAAAmJ/rBTRFp2wAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDVM9Ez01FQSi9KLMgoBgoYgjilmSkgdrRSspFlimlqsrGBmZFFUmpiiq5BimGSpWVqSpqxUaqJRXKKUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+sGeRa22wIAABYGAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+sFNEWnbAAAAHcAAAAJACQAAAAAAAAAAAAAACgDAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAA3wMAAAAA
+      value: UEsDBBQAAAgIAACYn+uhho6paAMAAE8HAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGNVVtv4jgU/isozwUFKNCMVGlnKO2MRm2jwu48LH0w9gnxYOzIlwKt+O97bBySsvuwAhFz7t93znE+Ei5NBdQq/aA5e1QMki+dxJ+Tq06j/A57slZyzt+htvnFmS29EQk2L8RyhfK+dzNqC1Zz+lWuhTdOUegkL5TeztgapspYg+KCCAOo0sp6b4mij06yx0c38y4HPA0m/vSOpyztHPFIQVrQjelo0Bv2h+PxZBg9+llvkqXZaDCJjt1+bzDOblA066aTEMRJKsi2AuYRNbH6k6w3qsMMR8FUIt5olQYlVUJwE8tN7KEKdExJZRyCRQPGCcIPNXo2SuDr0noobefnojBgIzeaHO64RhZPUZNv6kTtlpjNqbo3IpzPM74ORZ1iPv5L3e0HdaHV9nudtp/6FLbkdPNCDpQY26K+Lb77XLeTOyI2ZCXgVwnyST1o5SRDpdXOuzoDg7vm7xnZtAS6aeSnUi+ErmpIrzudntvVOR4D+P3cQnXGkfauG+mfBsxcqMB9jcWroiiMD2hs3Q8EFIbLxBQo9VVigAVZt6cwKu65NhZVkYUo9bY5dggYSAqR+K43kL6+lXLax0pmoVhPh7NTpSUEcURdgSTCHnKMaC9H4ELXqutCc0/8Qsbqoq7eswuXIG7s0/RClavdudsah9eEia5Pf38kf9TTnRNbFlwyLte9B02q0vT8HdF78bbhdwF76zQm/2os0S37XKvfONlXnb+QC6z/Nu2Fz1Vn6oR3uZXgrCbiqpO7leD0JxwWagPyVjohPJX2FBrr8BLPbUmkBBGKTJ6UDFv3n8/XxnpOScSFRGD2y19vatAGS66vuLnVYGm5UPfcBtRJvA9MDjrnexD1kEi/JvVuHF/9+JpS7R7BlM/OYkxopsArnjDIVGFZtB7NunW129zpgtCWW2ThjlgS2tTkPLviENIWTUXofICMGP339X+RF8pfO84+3y0JHWRsBHSYjgc3KyCsm7L+KsuAFcMBXN9QloTLh0ucUyLy06DF8ca1lA0WiRdN/Z7pnJllmuwe+PtWtVaGy0LNqQaQz6cIZ7CgMQney2zGOMKcg7XYurCEH8tEKLoBtjwHWgZiZ3sctGUTZZlU/E1ZL1km0/BiWSZefL7McOffOOx88k/BQGDrgC24gC2pvKp/TI7/AFBLAwQUAAAICAAAmJ/rBTRFp2wAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDVM9Ez01FQSi9KLMgoBgoYgjilmSkgdrRSspFlimlqsrGBmZFFUmpiiq5BimGSpWVqSpqxUaqJRXKKUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+uhho6paAMAAE8HAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+sFNEWnbAAAAHcAAAAJACQAAAAAAAAAAAAAALUDAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAbAQAAAAA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -104400,6 +105187,115 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+--- !u!1001 &2022908394
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_Name
+      value: SpiderEnemy_19
+      objectReference: {fileID: 0}
+    - target: {fileID: 989281883038569716, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.JSONSerialization
+      value: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-334685.8,-353.168854)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-5.722046E-06,145.05809)"},"ID":1,"Name":"Patrol
+        or Chase","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-381.512726,142.730118)"},"ID":2,"Name":"Start
+        Chase Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-334.8253,152.5242)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"AIEnemy.IsSoundHeard","NodeData":{"Offset":"(-108.209839,109.87606)"},"ID":4,"Name":"Is
+        Sound Heard","Instant":true,"AudioSourceAudioSource":0,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"SingleHearingThreshold":0.12,"BooleanApplyListenerVolume":true,"BooleanDebugPerceivedSoundVolume":false},{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(116,108.37838)"},"ID":5,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":1,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(361.83075,148.245575)"},"ID":6,"Name":"Chase
+        or Shot Web","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-187.179489,130)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"AIEnemy.IsWithinLightRange","NodeData":{"Offset":"(-215.357971,137.727356)"},"ID":8,"Name":"Is
+        Within Light Range","Instant":true,"Light2DLight":2,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"},"BooleanRequireLineOfSight":true,"LayerMaskMaskLayer":64,"SingleouterRadiusOffset":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-88.3209,139.519287)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","NodeData":{"Offset":"(41.5455666,136.644958)"},"ID":10,"Name":"Random
+        Probability","Instant":true,"SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"AIEnemy.Spider.Behaviors.SpiderShotWeb","NodeData":{"Offset":"(178.322845,139.483612)"},"ID":11,"Name":"Spider
+        Shot Web","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderChase","NodeData":{"Offset":"(210.536285,125.557846)"},"ID":12,"Name":"Spider
+        Chase","Instant":true,"SharedVector2TargetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}}]}]},{"Type":"AIEnemy.Spider.Behaviors.SpiderPatrol","NodeData":{"Offset":"(263.375,156.7831)"},"ID":13,"Name":"Spider
+        Patrol","Instant":true}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector2","Name":"TargetPosition","IsShared":true,"Tooltip":"The
+        target seek position when the enemy hear a sound","Vector2mValue":"(0,0)"}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1085707526}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 3747069882444730309, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: 'mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1085707525}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 35.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868121717729665723, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5a214f053bc7ec4788f342b571cbd13, type: 3}
 --- !u!1 &2025190609
 GameObject:
   m_ObjectHideFlags: 0
@@ -104599,11 +105495,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.74
+      value: 71.62
       objectReference: {fileID: 0}
     - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 36.84
+      value: 35.63
       objectReference: {fileID: 0}
     - target: {fileID: 1959531870585197922, guid: 3eccf2e706545564e8f4d73113e2e0d6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -105322,6 +106218,9 @@ SceneRoots:
   - {fileID: 2142264709}
   - {fileID: 38611522}
   - {fileID: 898624542}
+  - {fileID: 296330020}
+  - {fileID: 21514449}
+  - {fileID: 1533111890}
   - {fileID: 1888612837}
   - {fileID: 351523970}
   - {fileID: 425836702}
@@ -105340,6 +106239,11 @@ SceneRoots:
   - {fileID: 1575663586}
   - {fileID: 1757360171}
   - {fileID: 1514054728}
+  - {fileID: 139213043}
+  - {fileID: 2022908394}
+  - {fileID: 1458897544}
+  - {fileID: 1589758596}
+  - {fileID: 1069375187}
   - {fileID: 599530546}
   - {fileID: 270944796}
   - {fileID: 1727234297}

@@ -11,7 +11,7 @@ public class TopDownCharacterControl : MonoBehaviour
     [Header("Movement")]
     [Tooltip("The horizontal walk movement speed.")]
     [Range(0f, 1000f)]
-    public float walSpeed = 100f;
+    public float walkSpeed = 100f;
 
     [Tooltip("The run walk movement speed.")]
     [Range(0f, 1000f)]
@@ -300,7 +300,7 @@ public class TopDownCharacterControl : MonoBehaviour
     private void Move(float deltaTime)
     {
         
-        var moveSpeed = walSpeed;
+        var moveSpeed = walkSpeed;
         if (_isRunning)
         {
             moveSpeed = runSpeed;

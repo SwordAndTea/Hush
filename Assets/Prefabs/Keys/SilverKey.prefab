@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyCollectible
   pickupSfx: {fileID: 8300000, guid: 0fe455473679d4d6a85db8a2f9330cbf, type: 3}
-  pickupSfxVolume: 1
+  pickupSfxVolume: 6
 --- !u!82 &5002875164143225359
 AudioSource:
   m_ObjectHideFlags: 0
