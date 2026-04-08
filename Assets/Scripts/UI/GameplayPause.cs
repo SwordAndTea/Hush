@@ -23,6 +23,7 @@ public class GameplayPause : MonoBehaviour
             return;
         }
 
+        uiDocument.rootVisualElement.pickingMode = PickingMode.Ignore;
         pauseRoot = uiDocument.rootVisualElement.Q<VisualElement>("PauseRoot");
         Button restartButton = uiDocument.rootVisualElement.Q<Button>("RestartButton");
         Button resumeButton = uiDocument.rootVisualElement.Q<Button>("ResumeButton");

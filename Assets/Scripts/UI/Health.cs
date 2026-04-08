@@ -17,6 +17,7 @@ public class Health : MonoBehaviour
             return;
         }
 
+        uiDocument.rootVisualElement.pickingMode = PickingMode.Ignore;
         healthContainer = uiDocument.rootVisualElement.Q<VisualElement>("HealthContainer");
         if (healthContainer == null)
         {

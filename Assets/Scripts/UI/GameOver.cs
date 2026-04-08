@@ -4,6 +4,9 @@ using UnityEngine.UIElements;
 
 public class GameOver : MonoBehaviour
 {
+    [Tooltip("Pixel font for the GameOver text.")]
+    [SerializeField] private Font pixelFont;
+
     private VisualElement gameOverRoot;
     private VisualElement failImage;
     private VisualElement winImage;
@@ -31,8 +34,20 @@ public class GameOver : MonoBehaviour
             return;
         }
 
+        if (pixelFont != null)
+        {
+            ApplyPixelFont(replayButton);
+            ApplyPixelFont(exitButton);
+        }
+
         replayButton.clicked += Replay;
         exitButton.clicked += ExitGame;
+    }
+
+    private void ApplyPixelFont(VisualElement element)
+    {
+        element.style.unityFontDefinition = new StyleFontDefinition(StyleKeyword.None);
+        element.style.unityFont = new StyleFont(pixelFont);
     }
 
     private void Start()

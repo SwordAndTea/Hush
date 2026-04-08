@@ -292,8 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6e70ee19eb0d4848b9c2d19e3df4269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TopDownCharacterControl
-  walSpeed: 100
-  runSpeed: 200
+  walkSpeed: 130
+  runSpeed: 370
   webTrapDurationSeconds: 3
   spiderContactDamage: 1
   crawlerContactDamage: 5
@@ -313,6 +313,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  onEscapeSuccess:
+    m_PersistentCalls:
+      m_Calls: []
   webTrapAnimatorStatePath: Base Layer.ShakeSpiderWeb
   webTrapAnimatorLayer: 0
   enemyTag: Enemy

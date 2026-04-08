@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/KeyHUD.uss?fileID=7433441132597879392&amp;guid=7c333a2bd5b13024db65641beeecbc3d&amp;type=3#KeyHUD"/>
+    <ui:VisualElement name="KeyHUDRoot" class="key-hud-root" picking-mode="Ignore">
+        <ui:VisualElement name="KeyCountContainer" class="key-count-container">
+            <ui:Label name="KeyLabel" text="Keys: 0 / 3" class="key-label"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="MessageContainer" class="message-container hidden" picking-mode="Ignore">
+            <ui:Label name="MessageLabel" text="" class="message-label"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
