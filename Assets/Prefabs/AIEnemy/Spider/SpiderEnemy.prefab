@@ -426,6 +426,7 @@ MonoBehaviour:
   webShotPoint: {fileID: 7365150159393199961}
   webSpeed: 12
   webMaxDistance: 6
+  webShotCooldown: 3
   patrolGenerationRadius: 4
   patrolMinTargetSeparation: 1
   patrolColliderCheckRadius: 0.12

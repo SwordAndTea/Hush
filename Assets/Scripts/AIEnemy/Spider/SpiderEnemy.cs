@@ -29,7 +29,7 @@ namespace AIEnemy.Spider
         [SerializeField] Transform webShotPoint;
         [SerializeField] float webSpeed = 8f;
         [SerializeField] float webMaxDistance = 6f;
-        [SerializeField, Min(0f)] float webShotCooldown = 1f;
+        [SerializeField, Min(1f)] float webShotCooldown = 3f;
 
         [Space]
         [Header("Patrol · random generation (StartPatrol)")]
