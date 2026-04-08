@@ -19,6 +19,7 @@ public class GameOver : MonoBehaviour
             return;
         }
 
+        uiDocument.rootVisualElement.pickingMode = PickingMode.Ignore;
         gameOverRoot = uiDocument.rootVisualElement.Q<VisualElement>("GameOverRoot");
         statusLabel = uiDocument.rootVisualElement.Q<Label>("StatusLabel");
         Button replayButton = uiDocument.rootVisualElement.Q<Button>("ReplayButton");

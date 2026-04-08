@@ -25,6 +25,7 @@ public class KeyHUD : MonoBehaviour
         }
 
         var root = uiDoc.rootVisualElement;
+        root.pickingMode = PickingMode.Ignore;
 
         if (styleSheet != null)
             root.styleSheets.Add(styleSheet);
