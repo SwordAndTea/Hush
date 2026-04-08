@@ -16,7 +16,7 @@
     padding-right: 12px;
     padding-bottom: 12px;
     padding-left: 12px;
-    align-items: stretch;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0);
     border-top-width: 0;
     border-right-width: 0;
@@ -25,28 +25,9 @@
 }
 
 .status-label {
-    font-size: 38px;
-    unity-font-style: bold;
+    font-size: 72px;
     unity-text-align: middle-center;
-    margin-bottom: 18px;
-}
-
-.fail-image {
-    height: 360px;
     margin-bottom: 28px;
-    background-image: url("../../Sprites/UI/Fail.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    -unity-background-scale-mode: scale-to-fit;
-}
-
-.win-image {
-    height: 360px;
-    margin-bottom: 28px;
-    background-image: url("../../Sprites/UI/Escape_Success.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    -unity-background-scale-mode: scale-to-fit;
 }
 
 .fail {
@@ -63,18 +44,14 @@
     margin-top: 6px;
     margin-bottom: 6px;
     color: rgb(235, 218, 218);
-    background-color: rgba(40, 8, 8, 0.95);
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    border-top-color: rgb(145, 26, 26);
-    border-right-color: rgb(90, 18, 18);
-    border-bottom-color: rgb(70, 12, 12);
-    border-left-color: rgb(90, 18, 18);
-    unity-font-style: bold;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
 }
 
 .replay-button:hover {
-    background-color: rgba(66, 12, 12, 0.98);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
 }
