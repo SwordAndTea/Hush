@@ -8,6 +8,8 @@ public class GameOver : MonoBehaviour
     [SerializeField] private Font pixelFont;
 
     private VisualElement gameOverRoot;
+    private VisualElement failImage;
+    private VisualElement winImage;
     private Label statusLabel;
 
     private void Awake()
@@ -19,13 +21,14 @@ public class GameOver : MonoBehaviour
             return;
         }
 
-        uiDocument.rootVisualElement.pickingMode = PickingMode.Ignore;
         gameOverRoot = uiDocument.rootVisualElement.Q<VisualElement>("GameOverRoot");
+        failImage = uiDocument.rootVisualElement.Q<VisualElement>("FailImage");
+        winImage = uiDocument.rootVisualElement.Q<VisualElement>("WinImage");
         statusLabel = uiDocument.rootVisualElement.Q<Label>("StatusLabel");
         Button replayButton = uiDocument.rootVisualElement.Q<Button>("ReplayButton");
         Button exitButton = uiDocument.rootVisualElement.Q<Button>("ExitButton");
 
-        if (gameOverRoot == null || statusLabel == null || replayButton == null || exitButton == null)
+        if (gameOverRoot == null || failImage == null || winImage == null || statusLabel == null || replayButton == null || exitButton == null)
         {
             Debug.LogError("GameOver UI references are missing. Check GameOver.uxml names.");
             return;
@@ -33,7 +36,6 @@ public class GameOver : MonoBehaviour
 
         if (pixelFont != null)
         {
-            ApplyPixelFont(statusLabel);
             ApplyPixelFont(replayButton);
             ApplyPixelFont(exitButton);
         }
@@ -55,7 +57,7 @@ public class GameOver : MonoBehaviour
 
     public void ShowFail()
     {
-        ShowStatus("Death", true);
+        ShowStatus("You Fail", true);
     }
 
     public void ShowWin()
@@ -75,9 +77,22 @@ public class GameOver : MonoBehaviour
             return;
 
         statusLabel.text = text;
-        statusLabel.RemoveFromClassList("fail");
-        statusLabel.RemoveFromClassList("win");
-        statusLabel.AddToClassList(isFail ? "fail" : "win");
+        if (isFail)
+        {
+            failImage.RemoveFromClassList("hidden");
+            winImage.AddToClassList("hidden");
+            statusLabel.RemoveFromClassList("win");
+            statusLabel.AddToClassList("fail");
+            statusLabel.text = string.Empty;
+        }
+        else
+        {
+            failImage.AddToClassList("hidden");
+            winImage.RemoveFromClassList("hidden");
+            statusLabel.RemoveFromClassList("fail");
+            statusLabel.AddToClassList("win");
+            statusLabel.text = string.Empty;
+        }
 
         gameOverRoot.RemoveFromClassList("hidden");
         Time.timeScale = 0f;

@@ -16,7 +16,7 @@
     padding-right: 12px;
     padding-bottom: 12px;
     padding-left: 12px;
-    align-items: center;
+    align-items: stretch;
     background-color: rgba(0, 0, 0, 0);
     border-top-width: 0;
     border-right-width: 0;
@@ -24,10 +24,29 @@
     border-left-width: 0;
 }
 
-.status-label {
-    font-size: 72px;
-    unity-text-align: middle-center;
+.fail-image {
+    height: 360px;
     margin-bottom: 28px;
+    background-image: url("../../Sprites/UI/Fail.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.win-image {
+    height: 360px;
+    margin-bottom: 28px;
+    background-image: url("../../Sprites/UI/Escape_Success.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.status-label {
+    font-size: 38px;
+    unity-font-style: bold;
+    unity-text-align: middle-center;
+    margin-bottom: 18px;
 }
 
 .fail {
