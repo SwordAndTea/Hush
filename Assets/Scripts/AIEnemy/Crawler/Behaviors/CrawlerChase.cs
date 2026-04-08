@@ -23,7 +23,7 @@ namespace AIEnemy.Crawler.Behaviors
 
         public override TaskStatus OnUpdate()
         {
-            if (_crawler.ReachedDestination)
+            if (_crawler.IsTargetInGrabRange(TargetPosition.Value))
             {
                 _crawler.StopPathfinding();
                 return TaskStatus.Success;
