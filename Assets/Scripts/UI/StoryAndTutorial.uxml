@@ -3,10 +3,10 @@
     <ui:VisualElement name="story-tutorial-root" class="story-tutorial-root">
         <ui:VisualElement class="story-tutorial-panel">
             <ui:Label text="A Quiet Signal" class="story-tutorial-title"/>
-            <ui:Label text="You wake inside the buried halls of Hush Dungeon, where iron gates seal every path to the surface. The only way out is the old stairwell, locked by three ancient mechanisms. Each mechanism opens with one key hidden in different chambers. Move through the dungeon, recover all three keys, and unlock the exit before what hunts these halls finds you." class="story-tutorial-story"/>
+            <ui:Label text="You wake up inside the buried halls of Hush Dungeon. The only way out is the old stairwell with three keyholes: one forged with silver, one with gold, and one with ancient grey matter. Move throughout the dungeon, find the stairwell, recover all three keys, and unlock the exit if you can reach it in one piece..." class="story-tutorial-story"/>
             <ui:Label text="Goal: Find all THREE KEYS, then escape through the EXIT STAIRS." class="story-tutorial-goal"/>
             <ui:Label text="How to Play" class="story-tutorial-subtitle"/>
-            <ui:Label text="- Move with [W][A][S][D].&#10;- Interact with [E] when near objects.&#10;- Hold [Shift] to sprint (sprinting creates noise).&#10;- Press [Esc] to pause and review your objective." class="story-tutorial-tutorial"/>
+            <ui:Label text="- Move with [W][A][S][D].&#10;- Hold [Shift] to sprint (sprinting creates noise).&#10;- Press [Esc] to pause the game." class="story-tutorial-tutorial"/>
             <ui:Button name="story-tutorial-continue" text="Begin" class="story-tutorial-button"/>
         </ui:VisualElement>
     </ui:VisualElement>
