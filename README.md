@@ -58,4 +58,4 @@ The level is a single large tilemap divided into corridors, rooms, and bottlenec
 
 ## Contributions
 
-Game Co-Creator: [Wei Xiang](https://swordandtea.com).
+Game Creators: [Giovanni Assad](https://giovabattelli.com) & [Wei Xiang](https://swordandtea.com).
